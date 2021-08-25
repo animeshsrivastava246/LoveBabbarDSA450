@@ -14,7 +14,7 @@ public class DSA016array
             for(long i = 0; i < n; i++)
              arr[(int)i] = sc.nextLong();
              
-            System.out.println(new Solution().inversionCount(arr, n));
+            System.out.println(new Solution16().inversionCount(arr, n));
             
         }
         sc.close();
@@ -25,7 +25,7 @@ public class DSA016array
 
 //User function Template for Java
 
-class Solution
+class Solution16
 {
     // arr[]: Input Array
     // N : Size of the Array arr[]

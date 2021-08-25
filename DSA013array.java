@@ -15,7 +15,7 @@ public class DSA013array {
 		        arr[i] = Integer.parseInt(inputLine[i]);
 		    }
 		    
-		    Solution obj = new Solution();
+		    Solution13 obj = new Solution13();
 		    
 		    //calling maxSubarraySum() function
 		    System.out.println(obj.maxSubarraySum(arr, n));
@@ -26,7 +26,7 @@ public class DSA013array {
 // } Driver Code Ends
 
 
-class Solution{
+class Solution13{
 
     // arr: input array
     // n: size of array
