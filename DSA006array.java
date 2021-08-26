@@ -1,5 +1,5 @@
 import java.util.*;
-class GFG {
+public class DSA006array {
 	public static void main (String[] args) {
 		Scanner sc=new Scanner(System.in);
 		int t=sc.nextInt();
@@ -26,7 +26,7 @@ class GFG {
 		    {
 		        b[i]=sc.nextInt();
 		    }
-		    Solution ob=new Solution();
+		    Solution006 ob=new Solution006();
 		    //calling doUnion method and printing the results
 		    System.out.println(ob.doUnion(a,n,b,m));
 		}
@@ -37,7 +37,7 @@ class GFG {
 
 //User function Template for Java
 
-class Solution{
+class Solution006{
     public int doUnion(int a[], int n, int b[], int m) 
     {
         //Your code here

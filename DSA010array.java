@@ -14,7 +14,7 @@ public class DSA010array
             for(int i = 0;i<size;i++){
                 arr[i] = Integer.parseInt(arrStr[i]);
             }
-            System.out.println(new Solution().minJumps(arr));
+            System.out.println(new Solution010().minJumps(arr));
         }
 	 }
 	 
@@ -22,7 +22,7 @@ public class DSA010array
 // } Driver Code Ends
 
 
-class Solution{
+class Solution010{
     int minJumps(int[] a){
         // your code here
         int mx = a[0], stp = a[0], jp = 1, n = a.length;

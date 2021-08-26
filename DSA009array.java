@@ -18,7 +18,7 @@ public class DSA009array {
                 arr[i] = Integer.parseInt(inputLine[i]);
             }
 
-            int ans = new Solution().getMinDiff(arr, n, k);
+            int ans = new Solution009().getMinDiff(arr, n, k);
             System.out.println(ans);
         }
     }
@@ -27,7 +27,7 @@ public class DSA009array {
 
 // User function Template for Java
 
-class Solution {
+class Solution009 {
     int getMinDiff(int[] arr, int n, int k) {
         // code here
         Arrays.sort(arr);

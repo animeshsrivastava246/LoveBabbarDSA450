@@ -22,7 +22,7 @@ public class DSA012array {
                 arr2[i] = Integer.parseInt(inputLine[i]);
             }
 
-            new Solution().merge(arr1, arr2, n, m);
+            new Solution012().merge(arr1, arr2, n, m);
 
             StringBuffer str = new StringBuffer();
             for (int i = 0; i < n; i++) {
@@ -37,7 +37,7 @@ public class DSA012array {
 }// } Driver Code Ends
 
 
-class Solution {
+class Solution012 {
 
     public void merge(int arr1[], int arr2[], int n, int m) {
         // code here
