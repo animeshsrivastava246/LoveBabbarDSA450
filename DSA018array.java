@@ -34,7 +34,8 @@ class Sol {
         int ans = 0;
         for (int i = 0; i < n; i++)
         {
-            if (arr[i] == k - arr[i]) ans += (mp.get(arr[i]) - 1);
+            //if (arr[i] == k - arr[i]) ans += (mp.get(arr[i]) - 1);
+            if (2*arr[i] == k) ans += (mp.get(arr[i]) - 1);
             else if(mp.get(k - arr[i]) != null) ans += mp.get(k - arr[i]);
         }
         return ans/2;
